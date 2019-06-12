@@ -7,4 +7,4 @@ through the use of bash abstractions, such as `alias sudo=~/bin/pseudo` or `sudo
 The [pseudo-poc](pseudo-poc) directory contains the most simple
 Proof of Concept implementation.
 
-The local directory hold the more obfuscated and convincing version.
+The local directory holds the more obfuscated and convincing version.
