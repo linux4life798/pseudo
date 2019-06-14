@@ -2,7 +2,9 @@
 
 This repo houses the sudo impersonating utility called _pseudo_.
 This tool serves to expose a potential attack on a user's password
-through the use of bash abstractions, such as `alias sudo=~/bin/pseudo` or `sudo() { ~/bin/pseudo "$@"; }`.
+through the use of bash abstractions, such as the following:
+* `alias sudo=~/bin/pseudo`
+* `sudo()( exec -a sudo ~/bin/pseudo "$@" )`.
 
 The [pseudo-poc](pseudo-poc) directory contains the most simple
 Proof of Concept implementation.
